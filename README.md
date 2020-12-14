@@ -53,8 +53,6 @@ React Native date & time picker component for iOS, Android and Windows.
     - [`locale` (`optional`)](#locale-optional)
     - [`is24Hour` (`optional`, `Windows and Android only`)](#is24hour-optional-windows-and-android-only)
     - [`neutralButtonLabel` (`optional`, `Android only`)](#neutralbuttonlabel-optional-android-only)
-    - [`positiveButtonLabel` (`optional`, `Android only`)](#positivebuttonlabel-optional-android-only)
-    - [`negativeButtonLabel` (`optional`, `Android only`)](#negativebuttonlabel-optional-android-only)
     - [`minuteInterval` (`optional`)](#minuteinterval-optional)
     - [`style` (`optional`, `iOS only`)](#style-optional-ios-only)
   - [Migration from the older components](#migration-from-the-older-components)
@@ -132,7 +130,7 @@ export const App = () => {
     setDate(currentDate);
   };
 
-  const showMode = currentMode => {
+  const showMode = (currentMode) => {
     setShow(true);
     setMode(currentMode);
   };
@@ -318,21 +316,6 @@ Pressing button can be observed in onChange handler as `event.type === 'neutralB
 <RNDateTimePicker neutralButtonLabel="clear" />
 ```
 
-#### `positiveButtonLabel` (`optional`, `Android only`)
-
-Allows passing customized label to the 'ok' button on picker dialog, like localized string to support localization.
-```js
-<RNDateTimePicker positiveButtonLabel="Select" />
-```
-
-#### `negativeButtonLabel` (`optional`, `Android only`)
-
-Allows passing customized label to the 'cancel' button on picker dialog, like localized string to support localization.
-
-```js
-<RNDateTimePicker negativeButtonLabel="Dismiss" />
-```
-
 #### `minuteInterval` (`optional`)
 
 The interval at which minutes can be selected.
@@ -392,7 +375,7 @@ On Android, open picker modals will update the selected date and/or time if the 
 
   ```js
   // Before
-  onChange = event => {};
+  onChange = (event) => {};
   <DatePickerIOS onChange={this.onChange} />;
   ```
 
@@ -406,7 +389,7 @@ On Android, open picker modals will update the selected date and/or time if the 
 
   ```js
   // Before
-  setDate = date => {};
+  setDate = (date) => {};
   <DatePickerIOS onDateChange={this.setDate} />;
   ```
 
