@@ -14,8 +14,8 @@ public final class RNConstants {
   public static final String ACTION_DISMISSED = "dismissedAction";
   public static final String ACTION_NEUTRAL_BUTTON = "neutralButtonAction";
   public static final String ARG_LOCALE = "locale";
-  public static final String ARG_POSITIVE_BUTTON_LABEL = "positiveButtonLabel";
-  public static final String ARG_NEGATIVE_BUTTON_LABEL = "negativeButtonLabel";
+  public static final String ARG_CONFIRM_TEXT_ANDROID = "confirmTextAndroid";
+  public static final String ARG_CANCEL_TEXT_ANDROID = "cancelTextAndroid";
   /**
    * Minimum date supported by {@link DatePicker}, 01 Jan 1900
    */

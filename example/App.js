@@ -212,8 +212,8 @@ export const App = () => {
                 style={styles.iOsPicker}
                 textColor={color || undefined}
                 // locale="es-ES"
-                // negativeButtonLabel={'No'}
-                // positiveButtonLabel={'Si'}
+                // cancelTextAndroid={'No'}
+                // confirmTextAndroid={'Si'}
               />
             )}
           </View>

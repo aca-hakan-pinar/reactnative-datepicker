@@ -142,11 +142,11 @@ public class RNTimePickerDialogModule extends ReactContextBaseJavaModule {
     if (options.hasKey(RNConstants.ARG_LOCALE) && !options.isNull(RNConstants.ARG_LOCALE)) {
       args.putString(RNConstants.ARG_LOCALE, options.getString(RNConstants.ARG_LOCALE));
     }
-    if (options.hasKey(RNConstants.ARG_POSITIVE_BUTTON_LABEL) && !options.isNull(RNConstants.ARG_POSITIVE_BUTTON_LABEL)) {
-      args.putString(RNConstants.ARG_POSITIVE_BUTTON_LABEL, options.getString(RNConstants.ARG_POSITIVE_BUTTON_LABEL));
+    if (options.hasKey(RNConstants.ARG_CONFIRM_TEXT_ANDROID) && !options.isNull(RNConstants.ARG_CONFIRM_TEXT_ANDROID)) {
+      args.putString(RNConstants.ARG_CONFIRM_TEXT_ANDROID, options.getString(RNConstants.ARG_CONFIRM_TEXT_ANDROID));
     }
-    if (options.hasKey(RNConstants.ARG_NEGATIVE_BUTTON_LABEL) && !options.isNull(RNConstants.ARG_NEGATIVE_BUTTON_LABEL)) {
-      args.putString(RNConstants.ARG_NEGATIVE_BUTTON_LABEL, options.getString(RNConstants.ARG_NEGATIVE_BUTTON_LABEL));
+    if (options.hasKey(RNConstants.ARG_CANCEL_TEXT_ANDROID) && !options.isNull(RNConstants.ARG_CANCEL_TEXT_ANDROID)) {
+      args.putString(RNConstants.ARG_CANCEL_TEXT_ANDROID, options.getString(RNConstants.ARG_CANCEL_TEXT_ANDROID));
     }
     return args;
   }

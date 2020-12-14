@@ -41,7 +41,7 @@ export const DISMISS_ACTION = 'dismissedAction';
 export const NEUTRAL_BUTTON_LABEL = 'neutralButtonLabel';
 export const NEUTRAL_BUTTON_ACTION = 'neutralButtonAction';
 
-export const POSITIVE_BUTTON_LABEL = 'positiveButtonLabel';
-export const NEGATIVE_BUTTON_LABEL = 'negativeButtonLabel';
+export const CONFIRM_TEXT_ANDROID = 'confirmTextAndroid';
+export const CANCEL_TEXT_ANDROID = 'cancelTextAndroid';
 
 export const LOCALE = 'locale';
